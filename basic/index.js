@@ -2,4 +2,9 @@ function helloWorld() {
     return 'helloworld';
 }
 
-export default helloWorld;
+function goodbye() {
+    return 'goodbye';
+}
+
+export default { helloWorld, goodbye };
+
